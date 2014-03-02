@@ -10,6 +10,7 @@ import com.p6spy.engine.logging.appender.Log4jLogger;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 
 /**
@@ -21,6 +22,7 @@ import org.apache.commons.lang3.StringUtils;
  * @author kazuhito
  *
  */
+@Data
 public class Log4jLoggerEx
         extends Log4jLogger {
 
